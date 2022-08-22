@@ -1,7 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0</TargetFrameworks>
+	<TargetFramework>net6.0-windows7</TargetFramework>
+	<OutputType>Library</OutputType>
+	<Platforms>x64</Platforms>
     <RazorLangVersion>3.0</RazorLangVersion>
     <Authors>Serdar Ciplak</Authors>
     <RepositoryUrl>https://github.com/serdarciplak/BlazorMonaco</RepositoryUrl>
